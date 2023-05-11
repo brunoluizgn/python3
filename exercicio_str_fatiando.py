@@ -19,9 +19,9 @@ nome = input('digite seu nome: ')
 idade = input('digite sua idade: ')
 if idade:
  print(f'seu nome é: {nome}')
- print('Seu nome invertido é: ', nome [::-1])
+ print('Seu nome invertido é: ',nome [::-1])
  print('seu nome não contém espaços', '' in nome)
- print('seu nome tem', len(nome),'letras')
+ print(f'seu nome tem {len(nome)} letras')
  print(f'a primeira letra do seu nome é:',nome[0])
  print(f'a ultima letra do seu nome é:',nome[-1])
 else:

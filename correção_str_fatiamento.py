@@ -32,6 +32,7 @@ nome = input('digite seu nome: ')
 idade = input('digite sua idade: ')
 
 if nome and idade:
+
     print(f'seu nome é {nome}')
 
     print(f'Seu nome invertido é: {nome[::-1]}')

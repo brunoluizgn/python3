@@ -12,8 +12,7 @@ try:
 
     if par_impar:
         par_impar = 'par'
-
-    print(f'O número {entrada_int} é {par_impar_texto}') 
+    print(f'O número {entrada_int} é {par_impar}') 
 
 except:
     print(' Você não digitou um número')        
@@ -22,6 +21,7 @@ Faça um programa que pergunte a hora ao usuário e, baseando-se no horário
 descrito, exiba a saudação apropriada. Ex. 
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
+
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
